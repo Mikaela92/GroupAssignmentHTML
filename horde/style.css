@@ -1,0 +1,17 @@
+.background{
+background-color:black;
+}
+
+#firstPicture{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 80%;
+}
+
+
+.body {
+    background-image: url("hordeHeader.jpg");
+    background-color: black;
+   }
+
