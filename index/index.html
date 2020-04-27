@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link href="styles.css" rel="stylesheet">
+
+
+  <link href="https://fonts.googleapis.com/css?family=Bangers&display=swap" rel="stylesheet">
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+  <script>
+    function myFunction() {
+      if (document.getElementById("card").style.opacity == 1 && document.getElementById("card-two").style.opacity == 1) {
+        document.getElementById("card").style.opacity = 0;
+        document.getElementById("card-two").style.opacity = 0;
+        document.getElementById("click").style.color = "#999";
+      } else {
+        document.getElementById("card").style.opacity = 1;
+        document.getElementById("card-two").style.opacity = 1;
+        document.getElementById("click").style.color = "white";
+      }
+
+    }
+  </script>
+
+
+  <title>Wåw</title>
+</head>
+
+<body>
+  <div class="border-navbar">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="click" href="#" onclick="myFunction()">History of the Factions</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Lore</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+
+  <div class="container">
+
+    <div class="row">
+
+      <div class="mx-auto">
+
+        <div class="card" id="card" style="width: 25rem;">
+          <img src="images/alliance.png" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title alliance">History of the Alliance</h5>
+            <p class="card-text">Humans, night elves, dwarves, gnomes, draenei, worgen, and most recently, pandaren (Tushui) make up the illustrious Alliance.
+              Proud and noble, courageous and wise, these races work together to preserve order in Azeroth. The Alliance is driven by honor and tradition. Its rulers are champions of justice, hope, knowledge, and faith.
+              In a time when chaos and uncertainty reign, the Alliance remains steadfast in its determination to bring light to the darkest corners of the world.<br><br><br></p>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="mx-auto">
+        <div class="card" id="card-two" style="width: 25rem;">
+          <img src="images/horde.jpg" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title horde">History of the Horde</h5>
+            <p class="card-text">The Horde is made up of orcs, Forsaken, tauren, trolls, blood elves, goblins, and most recently, pandaren (Huojin). Misunderstood and cast aside, these diverse and powerful races strive to overcome their differences
+              and unite as one in order to win freedom for their people and prosper in a land that has come to hate them.
+              In the Horde, action and strength are valued above diplomacy, and its leaders earn respect by the blade, wasting no time with politics. The brutality of the Horde's champions is focused, giving a voice to those who fight for survival.
+            </p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="page-footer-fixed-bottom">
+    <div class="footer-copyright text-center py-2">
+      © 2020 Copyright: lol
+    </div>
+  </footer>
+
+</body>
+
+</html>
