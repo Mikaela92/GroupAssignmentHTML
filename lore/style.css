@@ -1,0 +1,186 @@
+@font-face {
+    font-family:'LifeCraft_Font';
+    src: url('LifeCraft_font.ttf');
+}
+
+#menu{
+    color:rgba(95, 93, 93, 0.486); 
+    font-family: 'LifeCraft_Font';
+    font-size: 1.5rem;
+    letter-spacing: 0.5px;
+    opacity: 0.5;
+  
+}
+
+.classfont-class{
+    font-family: 'LifeCraft_Font';
+    font-size: 5.5rem; 
+    width:100%;
+    color:#018BA4; 
+    text-align: center;
+    opacity:0.7;
+}
+
+.classfont-lores{
+    font-family: 'LifeCraft_Font';
+    font-size: 5.5rem; 
+    width:100%;
+    color:#920E1A; 
+    text-align: center;
+    opacity:0.7;
+}
+
+.body{
+    background-image: url("AllianceHorde.jpg");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#alliance{
+    font-family: 'LifeCraft_Font';
+    font-size: 4.0rem;
+    text-align:center;
+    color:#018BA4;
+    opacity: 0.4;
+}
+
+#horde{
+    font-family: 'LifeCraft_Font';
+    font-size: 4.0rem;
+    color:#920E1A;
+    opacity:0.5;
+
+}
+
+.classfont-alliance{
+    font-family: 'LifeCraft_Font';
+    color:#018BA4;
+    font-size:2rem; 
+    opacity:0.5;
+}
+
+.classfont-horde{
+    font-family: 'LifeCraft_Font';
+    color: #920E1A;
+    font-size:2rem;
+    opacity:0.5;
+}
+
+h1 .capital{
+    font-size: 5rem;
+}
+
+h2 .capital{
+    font-size:3rem;
+}
+
+
+#character-lore{
+    text-align: center;
+    opacity: 0.2;
+    margin-top: 50px;
+}
+
+.div-style{
+    display:inline;
+}
+
+.wrapper{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+#l-fixA{
+    text-transform:lowercase;
+    font-size: 6rem;
+}
+
+.l-fix{
+    text-transform:lowercase;
+    font-size: 2.5rem;
+}
+#l-fix{
+    text-transform:lowercase;
+    font-size: 4.5rem;
+}
+
+:link{
+    text-decoration: none;
+    color: darkgrey;
+}
+
+a:visited{
+    text-decoration: none;
+    color: darkgrey;
+}
+
+.horde-mark{
+    width:13%;
+    opacity: 0.5;
+}
+
+.alliance-mark{
+    width:10%;
+    opacity: 0.5;
+}
+
+.center-column{
+    text-align: center;
+    position: relative;
+    padding-top: 150px;
+    padding-right: 240px;
+}
+
+.page-footer {
+    position: fixed;
+    height: 50px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+    color: black;
+    opacity: 0.5;
+    font-size: 1.2rem;
+    letter-spacing: 0.5px;
+}
+
+#Pand{
+    font-family: 'LifeCraft_Font';
+    color:#018BA4;
+    font-size:3rem; 
+    opacity: 1;
+    bottom: 0;
+}
+
+#aren{
+    font-family: 'LifeCraft_Font';
+    color: #920E1A;
+    font-size:3rem;
+    bottom: 0;
+    opacity: 1;
+}
+
+
+@media only screen and (min-width: 700px) {
+    .left-column{
+        float:left;
+    }
+
+    .right-column{
+        float:right;
+    }  
+}
+
+@media only screen and (max-width: 940px) {
+    .wrapper{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+@media only screen and (max-width: 699px) {
+    .wrapper{
+        text-align:center;
+    }
+}
